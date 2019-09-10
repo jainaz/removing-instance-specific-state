@@ -18,6 +18,9 @@
 <div>Phone Number:</div>
 <div><%= session.getAttribute("phoneNumber") %>
 </div>
+<div>
+Instance number: <%= System.getProperty("instanceNumber") %>
+</div>
 
 <form action="logout" method="post">
     <input type="submit" value="Logout">
